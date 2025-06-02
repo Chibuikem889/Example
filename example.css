@@ -1,0 +1,122 @@
+*{
+    padding:0 ;
+    margin: 0;
+    /* background-color:red; */
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.frontend {
+background-color: midnightblue;
+color: white;
+font-size: 20px;
+font-weight: 600;
+border: 5px solid black;
+padding: 20px;
+margin: 45px;
+border-radius:30px ;
+}
+
+.ui-ux {
+background-color: teal;
+color: cyan;
+font-size: 20.5px;
+font-weight: 610;
+border: 5px solid black;
+padding: 20px;
+margin:45px ;
+border-radius: 30px;
+}
+
+.cybersecurity {
+background-color: green;
+color: white;
+font-size: 21px;
+font-weight: 620;
+border: 5px solid black;
+padding: 20px;
+margin: 45px;
+border-radius: 30px;
+
+}
+
+.Tutor {
+    color: rgb(43, 116, 226);
+}
+
+.students{
+    color: black;
+}
+
+.school{
+    color: chartreuse;
+}
+
+.number{
+    color: chocolate;
+}
+
+.time{
+color: crimson;
+}
+
+.length{
+color: gold;
+}
+
+.type{
+    color: hotpink;
+}
+
+.owner{
+    color: chartreuse;
+}
+
+.manager{
+    color: deepskyblue;
+}
+
+.branch{
+    color: gold;
+}
+
+.sub-branch{
+    color: greenyellow;
+}
+
+.ceo{
+    color: lawngreen;
+}
+
+.breadth{
+    color: mediumblue;
+}
+
+.prologue{
+    color: seashell;
+}
+
+.francis{
+color: blue;
+}
+
+.essell{
+color: brown;
+}
+
+.chibuikem{
+color: darkorange;
+}
+
+.uche{
+color: forestgreen;
+}
+
+.emma{
+color: purple;
+}
+
+.anthony{
+color: paleturquoise;
+}
