@@ -1,0 +1,28 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: cursive;
+}
+
+.first-class{
+ background-color: blue;
+ color: white;
+ font: arial;
+ font-size: 20px;
+ border: 5px solid black;
+ padding: 25px;
+ margin: 45px;
+ border-radius: 25px;   
+}
+
+.economy-class{
+    background-color: red;
+    color: white;
+    font: verdana;
+    font-size: 20px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 45px;
+    border-radius: 25px;
+}
