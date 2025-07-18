@@ -124,3 +124,17 @@ console.log("My First Name:", myFirstName)
 console.log("My Last Name:", myLastName)
 console.log("Date Of Birth:", dateOfBirth)
 console.log("My Age:", Myage)
+console.log("My Full Name:", myFirstName + " " + myLastName);
+
+
+//Assignment
+console.log("=== Assignment ===");
+var numberOfAssignments = "4";
+var totalPoints = "sum of assignment grades";
+var isPassing = "true if average grade is >=70";
+
+//console.log("Number of Assignments:", numberOfAssignments);
+console.log("Individual assignment grades.");
+console.log("Total Points:", totalPoints);
+console.log("average grade is calculated by dividing " + totalPoints + " by " + numberOfAssignments + ".");
+console.log("Is Passing:", isPassing);
