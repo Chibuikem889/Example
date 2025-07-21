@@ -129,12 +129,28 @@ console.log("My Full Name:", myFirstName + " " + myLastName);
 
 //Assignment
 console.log("=== Assignment ===");
-var numberOfAssignments = "4";
-var totalPoints = "sum of assignment grades";
-var isPassing = "true if average grade is >=70";
+var numberOfAssignments = 4;
+var totalPoints = "sum of all assignment grades"; // This should be a number, e.g., 100
+var isPassing = "pass if average grade is >=70";
 
-//console.log("Number of Assignments:", numberOfAssignments);
 console.log("Individual assignment grades.");
 console.log("Total Points:", totalPoints);
-console.log("average grade is calculated by dividing " + totalPoints + " by " + numberOfAssignments + ".");
-console.log("Is Passing:", isPassing);
+console.log("Average grade:", totalPoints / numberOfAssignments); // 25
+console.log("To pass, average grade must be >= 70. Current average is:", totalPoints / numberOfAssignments >= 70 ?
+     "pass" : "fail");
+console.log("=== End of Assignment ===");
+
+// Mathematical addition
+let mathResult = 15 + 27;
+console.log("Math addition:", mathResult); // 42
+
+// String concatenation
+let FirstName = "Sarah";
+let LastName = "Johnson";
+let FullName = FirstName + " " + LastName;
+console.log("Name combination:", FullName); // "Sarah Johnson"`
+
+// Mixed types - JavaScript converts numbers to strings
+let Age = 25;
+let introduction = "I am " + Age + " years old";
+console.log("Mixed types:", introduction); // "I am 25 years old"

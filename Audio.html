@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <!-- Basic audio implementation with multiple sources -->
+<audio controls>
+    <source src="podcast-episode-1.mp3" type="audio/mpeg">
+    <source src="podcast-episode-1.ogg" type="audio/ogg">
+    <source src="podcast-episode-1.wav" type="audio/wav">
+</audio> 
+      <p>Your browser doesn't support audio. 
+       <a href="podcast-episode-1.mp3" target="blank">Download the audio file</a> instead.</p>
+
+         <!-- Comprehensive audio implementation with accessibility features -->
+<section id="podcast-section">
+    <header>
+        <h3>Episode 47: The Future of Web Development</h3>
+        <p>Runtime: <time datetime="PT45M">45 minutes</time></p>
+    </header>
+    
+    <audio controls preload="metadata" id="podcast-player">
+        <source src="episode-47.mp3" type="audio/mpeg">
+        <source src="episode-47.ogg" type="audio/ogg">
+        <track kind="subtitles" src="episode-47-subtitles.vtt" srclang="en" label="English">
+        <track kind="chapters" src="episode-47-chapters.vtt" srclang="en" label="Chapters">
+        <p>Your browser doesn't support the audio element. 
+           <a href="episode-47.mp3" target="blank">Download the MP3 file</a> to listen offline.</p>
+    </audio>
+    
+    <details>
+        <summary>Show Transcript</summary>
+        <section id="transcript">
+            <h4>Full Episode Transcript</h4>
+            <p><strong>Host:</strong> Welcome to the Web Development Podcast. Today we're exploring the exciting developments in modern web technologies...</p>
+            <p><strong>Guest:</strong> Thanks for having me. I'm excited to share what we've been working on...</p>
+            <!-- Full transcript continues here -->
+        </section>
+    </details>
+    
+    <aside>
+        <h4>Episode Resources</h4>
+        <ul>
+            <li><a href="#framework-comparison">Framework Comparison Chart</a></li>
+            <li><a href="#code-examples">Code Examples from Discussion</a></li>
+            <li><a href="#guest-links">Guest's Recommended Resources</a></li>
+        </ul>
+    </aside>
+    <!-- Media Elements:
+    <audio controls> - Audio content with player controls
+    <video controls> - Video content with player controls
+    <source>         - Multiple media sources
+    <track>          - Text tracks for media (captions, subtitles)
+    <embed>          - External content
+    <iframe>         - Nested browsing context -->
+        <!-- Responsive video implementation with multiple sources -->
+
+</section>
+<section id="video-showcase">
+    <header>
+        <h3>Product Demo: Advanced CSS Techniques</h3>
+        <p>Learn professional-level CSS in this comprehensive tutorial.</p>
+    </header>
+    
+    <video controls width="800" height="450" poster="video-thumbnail.jpg">
+        <source src="css-tutorial.mp4" type="video/mp4">
+        <source src="css-tutorial.webm" type="video/webm">
+        <source src="css-tutorial.ogv" type="video/ogg">
+        
+        <!-- Subtitle tracks for accessibility -->
+        <track kind="subtitles" src="css-tutorial-en.vtt" srclang="en" label="English" default>
+        <track kind="subtitles" src="css-tutorial-es.vtt" srclang="es" label="Español">
+        <track kind="captions" src="css-tutorial-captions.vtt" srclang="en" label="English Captions">
+        <track kind="chapters" src="css-tutorial-chapters.vtt" srclang="en" label="Chapters">
+        
+        <p>Your browser doesn't support the video element. Here's a 
+           <a href="css-tutorial.mp4">link to download the video</a> instead.</p>
+    </video>
+    
+    <details>
+        <summary>Video Description</summary>
+        <p>This 30-minute tutorial covers advanced CSS Grid and Flexbox techniques. The instructor demonstrates building
+             a complex responsive layout step-by-step, explaining the reasoning behind each design decision.</p>
+    </details>
+    
+    <section id="video-chapters">
+        <h4>Chapter Navigation</h4>
+        <ol>
+            <li><a href="#" data-time="0">Introduction to Advanced Layouts</a></li>
+            <li><a href="#" data-time="180">CSS Grid Fundamentals</a></li>
+            <li><a href="#" data-time="480">Flexbox Integration</a></li>
+            <li><a href="#" data-time="720">Responsive Design Strategies</a></li>
+            <li><a href="#" data-time="1200">Real-world Application</a></li>
+        </ol>
+    </section>
+</section>
+<section>
+    <iframe 
+    width="560" 
+    height="315"
+    src="https://www.youtube.com/embed/wiKXQk5vU3k?si=njumRaQn8CBBwt1L" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+</section>
+</body>
+</html>
